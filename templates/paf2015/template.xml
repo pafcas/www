@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+	<positions>
+		<position name="head-meta-data"/>
+
+        <position name="site-header"/>
+        <position name="banner"/>
+        <position name="content"/>
+        <position name="footer"/>
+	</positions>
+</template>

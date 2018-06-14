@@ -1,0 +1,676 @@
+@import url("../../../fonts/fonts.css");
+@-ms-viewport {width: device-width;}
+
+h1 {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-family: 'chunkfive_exregular';
+}
+
+.helveticaneuecyrbold {
+    font-family: 'helveticaneuecyrbold';
+}
+
+.helveticaneuecyrmedium {
+    font-family: 'helveticaneuecyrmedium';
+}
+
+.helveticaneuecyrlight {
+    font-family: 'helveticaneuecyrlight';
+}
+
+.bebasneuecyrillic {
+    font-family: 'bebas_neue_cyrillicregular';
+}
+
+h1.h1-small {
+    font-size: 24px;
+}
+
+h1.bb {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+h1.bb a {
+    color: rgb(51, 51, 51);
+}
+
+h1.bb a:hover {
+    color: #269988;
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    color: #269988;
+    font-family: 'bebas_neue_cyrillicregular';
+}
+
+h4 {
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+
+a.link {
+    color: #0B5A50;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.width-limit-1152 {
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-content {
+    background-image: url("../img/bg-content.png");
+    background-repeat: repeat;
+}
+.bg-45 {
+    background-image: url("../img/bg-45.png");
+    background-repeat: repeat;
+}
+.bg-clouds {
+    background-image: url("../img/bg-clouds.png");
+    background-repeat: repeat;
+}
+
+.bg-gray {
+    background-color: #ECECEC;
+}
+.content-wrapper {
+    padding-left: 232px;
+    padding-right: 210px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.mt-6 {margin-top: 6px;}
+.mt-10 {margin-top: 10px;}
+.mt-20 {margin-top: 20px;}
+.mt-30 {margin-top: 30px;}
+.mt-40 {margin-top: 40px;}
+
+.h-100 {height: 100px;}
+
+.pt-10 {padding-top: 10px;}
+.pt-20 {padding-top: 20px;}
+.pt-30 {padding-top: 30px;}
+.pt-40 {padding-top: 40px;}
+.pb-100 {padding-bottom: 100px;}
+.pb-200 {padding-bottom: 200px;}
+
+
+.left-logo-img {
+    margin-top: 15px;
+}
+.right-logo-img {
+    padding-right: 30px;
+
+}
+
+.navbar-nav>li>a.right-logo {
+    padding-top: 18px;
+    padding-bottom: 0px;
+}
+
+.page-content-nav .navbar {
+    position: relative;
+    min-height: 40px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+
+.page-content-nav {
+    margin-bottom: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.page-content-nav .navbar-nav > li > a {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    color: #333;
+}
+
+.page-content-nav .navbar-nav > li > a:hover {
+    color: #269988;
+    text-shadow: 1px 1px  #fff;
+}
+
+.page-content-nav .navbar-nav > li.active  > a{
+    color: #269988;
+    text-shadow: 1px 1px  #fff;
+    font-family: 'helveticaneuecyrmedium';
+}
+
+.page-content-nav .navbar-nav > li.first > a {
+    padding-left: 0;
+}
+
+.page-content-nav .navbar-nav .divider-vertical {
+    padding-left: 0px;
+    margin-left: 0;
+    margin-top: 8px;
+    height: 20px;
+    border-left: 1px solid #858585;
+    border-right: 1px solid #FFF;
+}
+
+.bg-10 {
+    width: 710px;
+    height: 720px;
+    background-image: url("../img/bg-10.png")
+}
+
+.about-company-list {
+    padding-top: 80px;
+    padding-left: 70px;
+}
+
+.about-company-list > li  {
+    font-size: 20px;
+    color: #269B8A;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.about-company-list > li > span {
+    font-size: 16px;
+    color: #404040;
+    margin-bottom: 4px;
+    font-weight: normal;
+}
+
+.ship-item {
+    border-left: 2px solid #84BD3C;
+
+}
+
+.ship-name {
+    font-family: 'helveticaneuecyrmedium';
+}
+
+.ship-desc {
+    font-family: 'helveticaneuecyrlight';
+}
+
+.columns {
+    clear: both;
+    display: table-cell;
+}
+
+.column {
+    float:left;
+    position: relative;
+}
+
+.clear {
+    clear: both;
+}
+
+.image-gallery {
+}
+
+.image-gallery .gallery-item {
+    padding: 4px;
+}
+
+.games-gallery {
+}
+
+.games-gallery .game-item {
+    padding: 18px 24px 12px 0;
+}
+
+.game-item a {
+    text-decoration: none;
+}
+
+.game-item-bg {
+    background-image: url(../img/games-bg/game-item-bg.png);
+    background-repeat: no-repeat;
+    width: 269px;
+    height: 277px;
+    padding: 12px 0 0 12px;
+}
+
+.game-item-image {
+    width: 246px;
+    height: 151px;
+}
+
+.game-item-content {
+    padding: 0 0 0 4px;
+}
+
+.game-item-content h3 {
+    font-family: 'helveticaneuecyrbold';
+    font-size: 15px;
+    font-weight: 700;
+    color: #656565;
+}
+
+.game-item-content .header-wrapper {
+    height: 22px;
+}
+
+.game-item-content p {
+    font-family: 'helveticaneuecyrlight';
+    font-size: 14px;
+    color: #a4a4a4;
+    line-height: 18px;
+}
+
+.rouolette-bg {
+    background-image: url(../img/games-bg/rouolette.png);
+    background-repeat: no-repeat;
+}
+.rouolette-bg:hover {
+    background-image: url(../img/games-bg/rouolette-active.png);
+    background-repeat: no-repeat;
+}
+
+.black-jack-bg {
+    background-image: url(../img/games-bg/black-jack.png);
+    background-repeat: no-repeat;
+}
+.black-jack-bg:hover {
+    background-image: url(../img/games-bg/black-jack-active.png);
+    background-repeat: no-repeat;
+}
+.russian-pocker-bg {
+    background-image: url(../img/games-bg/russian-poker.png);
+    background-repeat: no-repeat;
+}
+.russian-pocker-bg:hover {
+    background-image: url(../img/games-bg/russian-poker-active.png);
+    background-repeat: no-repeat;
+}
+.oasis-pocker-bg {
+    background-image: url(../img/games-bg/oasis-pocker.png);
+    background-repeat: no-repeat;
+}
+.oasis-pocker-bg:hover {
+    background-image: url(../img/games-bg/oasis-pocker-active.png);
+    background-repeat: no-repeat;
+}
+.split-pocker-bg {
+    background-image: url(../img/games-bg/split-pocker.png);
+    background-repeat: no-repeat;
+}
+.split-pocker-bg:hover {
+    background-image: url(../img/games-bg/split-pocker-active.png);
+    background-repeat: no-repeat;
+}
+.texas-pocker-bg {
+    background-image: url(../img/games-bg/texas-pocker.png);
+    background-repeat: no-repeat;
+}
+.texas-pocker-bg:hover {
+    background-image: url(../img/games-bg/texas-pocker-active.png);
+    background-repeat: no-repeat;
+}
+.game-machines-bg {
+    background-image: url(../img/games-bg/game-machines.png);
+    background-repeat: no-repeat;
+}
+.game-machines-bg:hover {
+    background-image: url(../img/games-bg/game-machines-active.png);
+    background-repeat: no-repeat;
+}
+.texas-holdem-pocker-bg {
+    background-image: url(../img/games-bg/texas-holdem-pocker.png);
+    background-repeat: no-repeat;
+}
+.texas-holdem-pocker-bg:hover {
+    background-image: url(../img/games-bg/texas-holdem-pocker-active.png);
+    background-repeat: no-repeat;
+}
+.stavki-bg {
+    background-image: url(../img/games-bg/stavki.png);
+    background-repeat: no-repeat;
+}
+.stavki-bg:hover {
+    background-image: url(../img/games-bg/stavki-active.png);
+    background-repeat: no-repeat;
+}
+
+
+
+.game-title {
+    width: 900px;
+}
+
+.anonce, .anonce p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #269988; /* 84BD3C */
+    xfont-weight: bold;
+    font-family: 'bebas_neue_cyrillicregular';
+
+}
+
+.booking-gallery {
+}
+
+.booking-gallery .booking-item {
+    padding: 18px 56px 12px 0;
+}
+.booking-gallery .booking-item-last {
+    padding: 18px 0px 12px 0px;
+    margin-left: 58px;
+}
+
+.booking-maria-bg {
+    background-image: url("../img/booking-maria-bg.png");
+    background-repeat: no-repeat;
+    width: 352px;
+    height: 352px;
+}
+
+.booking-anastasia-bg {
+    background-image: url("../img/booking-anastasia-bg.png");
+    background-repeat: no-repeat;
+    width: 352px;
+    height: 352px;
+}
+
+.booing-btn-wrapper {
+    margin: 215px 0 0 118px;
+}
+
+.booking-btn {
+    background-image: url("../img/booking-btn.png");
+    background-repeat: no-repeat;
+    width: 156px;
+    height: 99px;
+    font-family: 'chunkfive_exregular';
+    font-size: 14px;
+    color: #404040;
+    padding: 19px 0 0 6px;
+}
+
+a.booking-btn:hover {
+    color: #269988;
+}
+
+.contact-gallery {
+}
+
+.contact-gallery .contact-item {
+    padding: 18px 100px 12px 0;
+}
+.contact-gallery .contact-item-last {
+    padding: 18px 0px 12px 0;
+}
+
+.request-form {
+    width: 709px;
+    height: 279px;
+    background-image: url("../img/bg-request-form.png");
+    padding-top: 90px;
+}
+
+.btn-request {
+    margin-top: 40px;
+    margin-left: 20px;
+    background-image: url("../img/bg-request-btn.png");
+    width: 214px;
+    height: 64px;
+    border: none;
+}
+
+.contact-email {
+    padding-left: 4px;
+    font-family: 'helveticaneuecyrmedium';
+
+}
+.contact-email a {
+    font-size: 18px;
+    color: #269988;
+}
+
+/* Arrow pager */
+.paf-pager .nav-pills>li.left-arrow>a, .paf-pager .nav-pills>li.left-arrow>a:focus, .paf-pager .nav-pills>li.left-arrow>a:hover {
+    color: #fff;
+    background-image: url("../img/arrow-left.png");
+    background-repeat: no-repeat;
+}
+
+.paf-pager .nav-pills>li.right-arrow>a, .paf-pager .nav-pills>li.right-arrow>a:focus, .paf-pager .nav-pills>li.right-arrow>a:hover {
+    color: #fff;
+    background-image: url("../img/arrow-right.png");
+    background-repeat: no-repeat;
+}
+
+.paf-pager .nav-pills li {
+    width: 150px;
+}
+
+.paf-pager .nav-pills>li.active>a, .paf-pager .nav-pills>li.active>a:focus, .paf-pager .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.paf-pager .nav-pills>li>a>.badge {
+    margin-left: 40px;
+}
+
+/* Circle pager */
+.paf-circle-pager .nav-pills>li.left-arrow>a, .paf-circle-pager .nav-pills>li.left-arrow>a:focus, .paf-circle-pager .nav-pills>li.left-arrow>a:hover {
+    color: #fff;
+    background-image: url("../img/green-circle.png");
+    background-repeat: no-repeat;
+}
+
+.paf-circle-pager .nav-pills>li.right-arrow>a, .paf-circle-pager .nav-pills>li.right-arrow>a:focus, .paf-circle-pager .nav-pills>li.right-arrow>a:hover {
+    color: #fff;
+    background-image: url("../img/green-circle.png");
+    background-repeat: no-repeat;
+}
+
+.paf-circle-pager .nav-pills li {
+    width: 40px;
+}
+
+.paf-circle-pager .nav-pills>li.active>a, .paf-circle-pager .nav-pills>li.active>a:focus, .paf-circle-pager .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.paf-circle-pager .nav-pills>li>a>.badge {
+    margin-top: -1px;
+    margin-left: -7px;
+}
+
+/* Arrow 3 pager */
+.paf-arrow3-pager {
+    width: 100%;
+}
+
+.paf-arrow3-pager .nav-pills>li.right-arrow {
+    float: right;
+}
+
+.paf-arrow3-pager .nav-pills>li.left-arrow>a, .paf-arrow3-pager .nav-pills>li.left-arrow>a:focus, .paf-arrow3-pager .nav-pills>li.left-arrow>a:hover {
+    color: #fff;
+    background-image: url("../img/arrow3-left.png");
+    background-repeat: no-repeat;
+}
+
+.paf-arrow3-pager .nav-pills>li.right-arrow>a, .paf-arrow3-pager .nav-pills>li.right-arrow>a:focus, .paf-arrow3-pager .nav-pills>li.right-arrow>a:hover {
+    color: #fff;
+    background-image: url("../img/arrow3-right.png");
+    background-repeat: no-repeat;
+}
+
+.paf-arrow3-pager .nav-pills>li.hide-arrow>a, .paf-arrow3-pager .nav-pills>li.hide-arrow>a:focus, .paf-arrow3-pager .nav-pills>li.hide-arrow>a:hover {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+.paf-arrow3-pager .nav-pills li {
+    width: 112px;
+}
+
+.paf-arrow3-pager .nav-pills>li.active>a, .paf-arrow3-pager .nav-pills>li.active>a:focus, .paf-arrow3-pager .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.paf-arrow3-pager .nav-pills>li>a>.badge {
+    margin-top: -1px;
+    margin-left: -7px;
+}
+
+.game-text {
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+}
+
+.action-block {
+    display: block;
+    width: 779px;
+    height: 161px;
+    background-image: url(../img/bg-action.png);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.action-block-2 {
+    display: block;
+    width: 779px;
+    height: 268px;
+    background-image: url(../img/bg-action-2.png);
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.action-block .action-block-image {
+    width: 161px;
+    height: 161px;
+    float: left;
+}
+
+.action-block-2 .action-block-image {
+    width: 161px;
+    height: 268px;
+    float: left;
+}
+
+.action-block .action-block-content {
+    float: left;
+    margin-left: 40px;
+    width:  576px; /* 779-161-40=578, and - 2 */
+    height: 161px;
+    padding: 0px 30px 0 0;
+    display: table;
+}
+
+.column-2 {
+
+}
+
+.action-block .action-block-content .left-content {
+    width: 394px;
+    height: 161px;
+
+    display: table-cell;
+    vertical-align: middle;
+}
+.action-block .action-block-content .right-sticker {
+    width: 128px; /* 576-394-0 = 182  182-128 = 54*/
+    height: 161px;
+    padding-left: 20px;
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.action-block-2 .action-block-content {
+    float: left;
+    margin-left: 40px;
+    width:  576px; /* 779-161-50=568, and - 2 */
+    height: 268px;
+    padding: 0px 30px 0 0;
+    display: table;
+}
+
+.action-block-content div.centered {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.action-block-content h2 {
+    font-family: 'helveticaneuecyrmedium';
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100;
+    color: #269988;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+.action-block-content .content-text,  .action-block-content p {
+    font-family: 'helveticaneuecyrmedium' !important;
+    font-size: 14px;;
+    line-height: 16px;
+    text-align: justify;
+    color: #231F20;
+    margin: 0 0 6px;
+}
+
+.action-block-content .content-footer {
+    margin-top: 6px;
+    font-family: 'helveticaneuecyrmedium';
+    font-size: 13px;;
+    line-height: 14px;
+    text-align: justify;
+    color: #6D6D6D;
+}
+
+.action-block .divider:after, .action-block-2 .divider:after {
+    padding-left: 20px;
+    padding-right: 20px;
+    content: '|';
+}
+
+
+.right-sticker-bg {
+    background-image: url(../img/bg-action-booking.png);
+    background-repeat: no-repeat;
+    width: 128px;
+    height: 128px;
+    xpadding: 12px 0 0 12px;
+}
+
+.right-sticker a {
+    text-decoration: none;
+}
+
+
